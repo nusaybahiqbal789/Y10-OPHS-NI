@@ -1,0 +1,9 @@
+#Variables
+
+name="nusaybah"
+#This is a variable
+#The variable is called name
+#The variable called name 
+#Contains some data
+
+print(name)
