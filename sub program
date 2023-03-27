@@ -1,0 +1,106 @@
+def test():
+  print("this is a test")
+  print("")
+  print("hello!")
+
+def thing():
+  print("thing")
+
+
+test()
+thing()
+test()
+thing()
+
+
+
+def money():
+  print("i like money")
+  print("i want money")
+  print("money can buy happiness")
+
+money()
+
+
+def adding(num1,num2):
+  total=num1+num2
+   print(num1,"+",num2,"=",total)
+  
+  
+def subtracting(num1,num2):
+  total=num1-num2
+  print(num1,"+",num2,"=",total)
+  
+
+  
+def divide(num1,num2):
+  total=num1/num2
+  print(num1,"/",num2,"=",total)
+  
+
+def multiply(num1,num2):
+  total=num1*num2
+  print(num1,"*",num2,"=",total)
+  .
+def menu():
+print("1 for add")    
+print("1 for subtract")  
+print("1 for divide")
+print("1 for multiply")  
+  
+select =int(input("1,2,3 or 4?"))
+
+if select == 1:
+    num1=int(input("enter a num:"))
+    num2=int(input("enter another num:"))
+    adding(num1,num2)
+
+elif select ==2:
+ num1=int(input("enter a num:"))
+    num2=int(input("enter another num:"))
+    adding(num1,num2)
+    
+
+
+
+elif select ==3:
+ num1=int(input("enter a num:"))
+    num2=int(input("enter another num:"))
+    multiplication(num1,num2)
+  
+
+
+elif select ==4:
+ num1=int(input("enter a num:"))
+    num2=int(input("enter another num:"))
+    division(num1,num2)
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
