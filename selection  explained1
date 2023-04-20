@@ -1,0 +1,7 @@
+Sky="blue"
+
+if SkyColour== ("blue");
+    print("the sky is blue today")
+    
+print("Good bye")
+
