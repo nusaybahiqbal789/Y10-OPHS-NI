@@ -1,0 +1,5 @@
+answer=0
+while anwer =< 50:
+  print(int(input("enter a number")))
+
+
