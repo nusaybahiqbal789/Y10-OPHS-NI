@@ -1,0 +1,25 @@
+
+# Mad Libs Story
+
+# Function to get user input
+def get_input(prompt):
+    user_input = input(prompt + ": ")
+    return user_input
+
+# Main program
+print("Welcome to Mad Libs!")
+
+# Get user inputs
+animal = get_input("Enter an animal")
+color = get_input("Enter a color")
+food = get_input("Enter a type of food")
+adjective = get_input("Enter an adjective")
+verb = get_input("Enter a verb")
+
+# Display the completed Mad Lib story
+print("Once upon a time, there was a big fat lazy", animal, "that was always", color + ".")
+print("It only loved to eat", food, "and was always", adjective + ".")
+print("One day, the", animal, "decided to", verb, "and had the time of its life!")
+print("The end.")
+
+
