@@ -1,0 +1,18 @@
+
+# Mad Lib: Vacation Plans
+
+print("Welcome to Mad Libs: Vacation Plans!")
+
+# Get user inputs
+place = input("Enter a place: ")
+activity = input("Enter an activity: ")
+adjective = input("Enter an adjective: ")
+friend = input("Enter a friend's name: ")
+food = input("Enter a food item: ")
+
+# Display the completed Mad Lib
+print("I can't wait to go to", place, "and", activity, "on my vacation!")
+print("The weather will be", adjective, "and I'm excited to spend time with my friend", friend + ".")
+print("I'll also enjoy eating", food, "while I'm there. It's going to be an amazing trip!")
+
+
